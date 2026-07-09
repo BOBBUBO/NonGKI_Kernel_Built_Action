@@ -482,5 +482,3 @@ jobs:
       with:
         name: boot${{ env.LOCALVERSION }}${{ env.UPLOADNAME }}-${{ env.DEVICE }}-${{ env.BUILD_TIME }}
         path: kernel_workspace/boot.img
-    - name: GH Release
-      uses: softprops/action-gh-release@v3.0.1
